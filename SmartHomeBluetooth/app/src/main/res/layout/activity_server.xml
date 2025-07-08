@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Titre fixe -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La Maison Bluetooth"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Indicateur de mode -->
+    <TextView
+        android:id="@+id/modeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode Serveur"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <!-- Statut de connexion -->
+    <TextView
+        android:id="@+id/serverStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="*Attente de connexion d'un client*"
+        android:textColor="#444444"
+        android:textSize="16sp" />
+</LinearLayout>
